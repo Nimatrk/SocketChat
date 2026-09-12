@@ -5,10 +5,15 @@ namespace SocketChat.Domain.Entities
     public class RefreshToken
     {
         public Guid Id { get; private set; }
+
         public UserId UserId { get; private set; }
+
         public string TokenHash { get; private set; }
+
         public DateTime ExpiresAt { get; private set; }
+
         public DateTime CreatedAt { get; private set; }
+
         public DateTime? RevokedAt { get; private set; }
 
         private RefreshToken(UserId userId, string tokenHash, DateTime expiresAt)

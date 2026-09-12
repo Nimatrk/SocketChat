@@ -5,7 +5,9 @@ namespace SocketChat.Domain.Entities
     public sealed class ConversationMember
     {
         public ConversationId ConversationId { get; private set; }
+
         public UserId UserId { get; private set; }
+
         public DateTime JoinedAt { get; private set; }
 
         private ConversationMember(ConversationId conversationId, UserId userId)

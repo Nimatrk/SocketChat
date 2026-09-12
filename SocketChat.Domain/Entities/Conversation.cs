@@ -6,8 +6,11 @@ namespace SocketChat.Domain.Entities
     public sealed class Conversation
     {
         public ConversationId Id { get; private set; }
+
         public ConversationType Type { get; private set; }
+
         public DateTime CreatedAt { get; private set; }
+
         public DateTime UpdatedAt { get; private set; }
 
         public Conversation(ConversationType type)
