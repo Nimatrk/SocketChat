@@ -1,6 +1,6 @@
 ﻿namespace SocketChat.Domain.ValueObjects
 {
-    public sealed record Username
+    public sealed class Username
     {
         public string Value { get; }
 
