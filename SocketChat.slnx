@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="SocketChat.Application/SocketChat.Application.csproj" />
+    <Project Path="SocketChat.Contracts/SocketChat.Contracts.csproj" />
+    <Project Path="SocketChat.Domain/SocketChat.Domain.csproj" />
+    <Project Path="SocketChat.Infrastructure/SocketChat.Infrastructure.csproj" />
+    <Project Path="SocketChat.Network/SocketChat.Network.csproj" />
+    <Project Path="SocketChat.Server/SocketChat.Server.csproj" />
+    <Project Path="SocketChat.Wpf/SocketChat.Wpf.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="SocketChat.Application.Tests/SocketChat.Application.Tests.csproj" />
+    <Project Path="SocketChat.Domain.Tests/SocketChat.Domain.Tests.csproj" />
+    <Project Path="SocketChat.Infrastructure.Tests/SocketChat.Infrastructure.Tests.csproj" />
+    <Project Path="SocketChat.IntegrationTests/SocketChat.IntegrationTests.csproj" />
+    <Project Path="SocketChat.Network.Tests/SocketChat.Network.Tests.csproj" />
+  </Folder>
+</Solution>

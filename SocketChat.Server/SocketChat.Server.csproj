@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SocketChat.Application\SocketChat.Application.csproj" />
+    <ProjectReference Include="..\SocketChat.Contracts\SocketChat.Contracts.csproj" />
+    <ProjectReference Include="..\SocketChat.Infrastructure\SocketChat.Infrastructure.csproj" />
+    <ProjectReference Include="..\SocketChat.Network\SocketChat.Network.csproj" />
+  </ItemGroup>
+
+</Project>
